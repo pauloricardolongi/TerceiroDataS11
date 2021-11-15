@@ -10,12 +10,12 @@ public class Programa {
 		SimpleDateFormat sdf1 = new SimpleDateFormat("dd/MM/yyyy");
 		SimpleDateFormat sdf2 = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 		
-		Date y1 = sdf1.parse("25/06/2018");
-		Date y2 = sdf2.parse("15/11/2021 01:00:00");
+		Date x1 = new Date(); 
 		
-		System.out.println("y1: " + sdf2.format(y1));
-		System.out.println("y2 :" + sdf2.format(y2));
-
+		
+		
+		System.out.println("x1: " + sdf2.format(x1));
+		
 	}
 
 }
