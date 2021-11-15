@@ -13,8 +13,8 @@ public class Programa {
 		Date y1 = sdf1.parse("25/06/2018");
 		Date y2 = sdf2.parse("15/11/2021 01:00:00");
 		
-		System.out.println(y1);
-		System.out.println(y2);
+		System.out.println("y1: " + sdf2.format(y1));
+		System.out.println("y2 :" + sdf2.format(y2));
 
 	}
 
